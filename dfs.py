@@ -11,3 +11,8 @@ def dfs(grid, i, j, m, n, visited):
     dfs(grid, i, j - 1, m, n, visited)
 
     return True
+
+
+if "__name__" == "__main__":
+    grid = [[]]
+    dfs(grid, 0, 0, 3, 3, [[]])
